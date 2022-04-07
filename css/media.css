@@ -1,0 +1,250 @@
+/*==========  Desktop First Method  ==========*/
+@media only screen and (max-width : 1835px) {
+	.fixed-consult {
+		display: none;
+	}
+}
+@media only screen and (max-width : 1400px) {
+	.billbord-main__title {
+		font-size: 26px;
+		margin-bottom: 33px;
+	}
+	.item-billbord {
+		font-size: 17px;
+		line-height: 28px;
+	}
+	.item-billbord__name {
+		font-size: 31px;
+		margin-bottom: 27px;
+	}
+	.item-billbord__title {
+		font-size: 41px;
+		line-height: 42px;
+		margin-bottom: 25px;
+	}
+	.billbord-main {
+		padding: 26px 20px;
+		padding-right: 63px;
+		min-height: 347px;
+	}
+	.billbord-main__image img {
+		max-width: 100px;
+	}
+	.billbord-main .link-main {
+		margin-top: 25px;
+	}
+	.item-category {
+		font-size: 20px;
+	}
+	.billbord-catalog__content {
+		padding: 160px 18px;
+		padding-right: 45px;
+		padding-bottom: 30px;
+	}
+	.billbord-catalog {
+		height: 460px;
+	}
+	body {
+		font-size: 14px;
+		line-height: 22px;
+	}
+	.item-catalog__title {
+		line-height: 22px;
+	}
+	.item-catalog .btn-main {
+		padding: 0 15px;
+	}
+	.item-catalog .quantity {
+		width: 110px;
+	}
+	.item-catalog__bottom {
+		padding: 15px;
+		min-height: 135px;
+	}
+	.item-catalog__content {
+		padding: 0 15px;
+		padding-bottom: 15px;
+	}
+	.consultation-block__descr {
+		font-size: 32px;
+	}
+	.consultation-block__text {
+		font-size: 18px;
+		line-height: 28px;
+		margin-bottom: 40px;
+	}
+	.item-article__image {
+		height: 224px;
+		margin-bottom: 20px;
+	}
+	.item-article__content {
+		padding: 0 15px;
+	}
+	.row_advantages > div {
+		padding: 0 15px;
+	}
+	.row_advantages {
+		margin: 0 -15px;
+	}
+	.item-advantage {
+		padding: 22px 15px;
+	}
+	.item-article__name {
+		font-size: 21px;
+		margin-bottom: 15px;
+	}
+	.item-article p {
+		margin-bottom: 15px;
+	}
+}
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.btn-header {
+		width: 77px;
+	}
+	.contacts-links .phone-main ~ a {
+		margin-left: 5px;
+	}
+	.header .logo-descr {
+		display: none;
+	}
+	.search-main {
+		width: 235px;
+	}
+	.menu {
+		margin: 0 25px;
+	}
+	.item-billbord {
+		font-size: 14px;
+		line-height: 22px;
+	}
+	.item-billbord__name {
+		font-size: 26px;
+		margin-bottom: 14px;
+	}
+	.item-billbord__title {
+		font-size: 32px;
+		line-height: 31px;
+		margin-bottom: 15px;
+	}
+	.billbord-main__title {
+		font-size: 18px;
+		margin-bottom: 15px;
+	}
+	.billbord-main {
+		padding: 15px 20px;
+		padding-right: 57px;
+		min-height: 267px;
+		font-size: 12px;
+		line-height: 19px;
+	}
+	.billbord-main .link-main {
+		margin-top: 15px;
+	}
+	.billbord-main__image img {
+		max-width: 86px;
+	}
+	.billbord {
+		padding: 53px 0;
+	}
+	.item-category {
+		font-size: 16px;
+		height: 270px;
+	}
+	.billbord-catalog .title-section {
+		font-size: 23px;
+	}
+	.billbord-catalog__content {
+		padding-top: 105px;
+	}
+	.billbord-catalog {
+		height: 420px;
+	}
+	.consultation-block__descr {
+		font-size: 25px;
+	}
+	.consultation-block__title {
+		font-size: 38px;
+		line-height: 39px;
+	}
+	.consultation-block {
+		padding: 35px;
+	}
+	.line-form .item-form {
+		width: 236px;
+	}
+	.consultation {
+		padding-bottom: 40px;
+	}
+	.item-brand {
+		height: 145px;
+	}
+	.catalog {
+		padding-bottom: 60px;
+	}
+	.block-articles {
+		padding: 25px;
+		padding-bottom: 50px;
+	}
+	.row_articles > div {
+		padding: 0 15px;	
+	}
+	.row_articles {
+		margin: 0 -15px;
+	}
+	.about .title-section {
+		margin-top: 0;
+		margin-bottom: 15px;
+	}
+	.about p {
+		margin-bottom: 15px;
+	}
+	.item-advantage__title {
+		font-size: 16px;
+	}
+	.footer__bottom {
+		font-size: 12px;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+.footer__content {
+	display: block !important;
+}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1400px) {
+	.container {
+		max-width: 1390px;
+	}
+}
+@media (min-width: 1600px) {
+	.container {
+		max-width: 1390px;
+	}
+}
