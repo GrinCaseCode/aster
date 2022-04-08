@@ -1344,3 +1344,114 @@ color: #ffffff;
 .slick-dots li.slick-active button {
     opacity: 1;
 }
+.news-page {
+	padding-top: 35px;
+	padding-bottom: 40px;
+}
+.news-page .title-section {
+	padding-bottom: 35px;
+}
+.news-page .row_articles > div {
+	margin-bottom: 55px;
+}
+.item-article_image .item-article__content {
+	padding: 50px 40px;
+	padding-right: 35px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+		border-radius: 15px;
+	background-color: rgba(25, 36, 42, 0.5);
+}
+.item-article_image .item-article__image {
+	height: 100%;
+	margin: 0;
+}
+.item-article_image .item-article__date,
+.item-article_image .link-main,
+.item-article_image .item-article__name,
+.item-article_image {
+	color: #fff;
+}
+.item-article_image {
+	position: relative;
+	height: 100%;
+}
+.news-page .block-articles {
+	padding-bottom: 20px;
+}
+.pager {
+	margin: 0 -23px;
+	margin-top: 40px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+.page-numbers {
+	margin: 0 23px;
+	color: #333;
+	transition: all 0.3s;
+}
+.page-numbers:hover,
+.page-numbers.current {
+	color: #055192;
+}
+.prev.page-numbers,
+.next.page-numbers {
+width: 40px;
+height: 40px;
+background-color: rgba(51,51,51,0.0);
+border: 1px solid rgba(153,153,153,0.69);
+	border-radius: 50%;
+	font-size: 13px;
+	color: #333333;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	position: absolute;
+	top: 0;
+}
+.prev.page-numbers:hover,
+.next.page-numbers:hover {
+	box-shadow: 0px 6px 10px 0px rgba(236,132,1,0.4);
+}
+.prev.page-numbers {
+	left: 0;
+}
+.next.page-numbers {
+	right: 0;
+}
+.breadcrumbs {
+	font-size: 13px;
+line-height: 20px;
+padding-top: 27px;
+padding-bottom: 50px;
+flex-wrap: wrap;
+display: flex;
+align-items: center;
+}
+.breadcrumbs li {
+	position: relative;
+}
+.breadcrumbs li::after {
+	position: relative;
+	display: inline-block;
+	content: "/";
+	margin: 0 10px;
+}
+.breadcrumbs a {
+	color: #333;
+	transition: all 0.3s;
+	border-bottom: 1px solid transparent;
+}
+.breadcrumbs a:hover {
+	border-color: #333;
+}
+.breadcrumbs li:last-child::after {
+	display: none;
+}
