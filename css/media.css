@@ -959,11 +959,11 @@
 		transform: translate(0, -50%);
 	}
 	.slider-nav .slick-prev {
-		left: -15px;
+		left: -10px;
 		right: auto;
 	}
 	.slider-nav .slick-next {
-		right: -15px;
+		right: -10px;
 		left: auto;
 	}
 	.card .title-middle {
@@ -1264,7 +1264,7 @@
 		line-height: 29px;
 		padding-bottom: 13px;
 	}
-	.card .btn-main {
+	.card .consultation-block_main .btn-main {
 		padding: 0 5px;
 	}
 	.recomendation { 
