@@ -149,6 +149,75 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-chevron-right"></i><div/>',
 	});
 
+	$('.slider-for').slick({
+		arrows: false,
+		dots: false,
+		infinite: true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		asNavFor: '.slider-nav',
+		touchThreshold: 1000,
+		prevArrow: '<div class="slick-prev slick-arrow"><i class="fas fa-chevron-left"></i><div/>',
+		nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-chevron-right"></i><div/>',
+
+	});
+
+	$('.slider-nav').slick({
+		arrows: true,
+		dots: false,
+		infinite: true,
+		vertical: true,
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		asNavFor: '.slider-for',
+		touchThreshold: 1000,
+		focusOnSelect: true,
+		prevArrow: '<div class="slick-prev slick-arrow"><i class="fas fa-chevron-left"></i><div/>',
+		nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-chevron-right"></i><div/>',
+				responsive: [
+		{
+			breakpoint: 768,
+			settings: {
+			vertical: false
+			}
+		}
+		]
+	});
+
+	$('.slider-catalog').slick({
+		arrows: true,
+		dots: false,
+		infinite: false,
+		slidesToShow: 4,
+		slidesToScroll: 1,
+		prevArrow: '<div class="slick-prev slick-arrow"><i class="fas fa-chevron-left"></i><div/>',
+		nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-chevron-right"></i><div/>',
+		responsive: [
+		{
+			breakpoint: 1200,
+			settings: {
+				slidesToShow: 3,
+			}
+		},
+		{
+			breakpoint: 992,
+			settings: {
+				slidesToShow: 2,
+				arrows: false,
+				dots: true,
+			}
+		},
+		{
+			breakpoint: 768,
+			settings: {
+				slidesToShow: 1,
+				arrows: false,
+				dots: true,
+			}
+		}
+		]
+	});
+
 	/*range slider*/
 
 	$(function() {
@@ -248,6 +317,15 @@ $(".btn-main_filter").click(function(e) {
 		});
 
 	});
+
+	$('.tabs li a').click(function(event) {
+		event.preventDefault();
+		$(this).parent().parent().find("li").removeClass('active');
+		$(this).parent().addClass('active');
+		$(".tab-pane").fadeOut(0);
+		var selectTab = $(this).attr("href");
+		$(selectTab).fadeIn(200);
+	}); 
 
 
 	 // стайлер для select

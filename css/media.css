@@ -4,6 +4,12 @@
 		display: none;
 	}
 }
+@media only screen and (max-width : 1700px) {
+	.thanks {
+		padding-top: 70px;
+		padding-bottom: 150px;
+	}
+}
 @media only screen and (max-width : 1400px) {
 	.billbord-main__title {
 		font-size: 26px;
@@ -111,6 +117,39 @@
 	}
 	.categories-page .title-section {
 		padding-bottom: 35px;
+	}
+	.card .consultation-block_main .consultation-block__descr {
+		font-size: 21px;
+		line-height: 28px;
+		padding-bottom: 15px;
+	}
+	.basket-main td:nth-child(2) {
+		padding-right: 10px;
+		width: 300px;
+	}
+	.basket-main td:nth-child(3) {
+		width: 182px;
+	}
+	.basket-total {
+		padding: 20px;
+		padding-bottom: 40px;
+	}
+	.title-big {
+		font-size: 42px;
+		line-height: 51px;
+		padding-bottom: 20px;
+	}
+	.descr-big {
+		font-size: 22px;
+		line-height: 29px;
+	}
+	.thanks .descr-big {
+		padding-bottom: 25px;
+		max-width: 426px;
+	}
+	.thanks {
+		padding-top: 55px;
+		padding-bottom: 110px;
 	}
 }
 /* Large Devices, Wide Screens */
@@ -261,6 +300,45 @@
 	}
 	.text-block {
 		margin-right: 0;
+	}
+	.table-main th {
+		padding: 7px 5px;
+	}
+	.table-main {
+		font-size: 14px;
+	}
+	.basket-main td:nth-child(1) {
+		width: 150px;
+	}
+	.basket-main td:nth-child(2) {
+		width: 205px;
+	}
+	.basket-main td:nth-child(3) {
+		width: 150px;
+		padding-left: 10px;
+	}
+	.basket-main td:last-child {
+		width: 60px;
+		padding-right: 15px;
+	}
+	.basket-bottom, .basket-head {
+		padding: 18px 15px;
+	}
+	.basket-head__title,
+	.restore-table, .clear-table {
+		font-size: 15px;
+	}
+	.basket-bottom__title {
+		max-width: 60%;
+	}
+	.link-doc {
+		font-size: 16px;
+	}
+	.link-doc img {
+		max-width: 20px;
+	}
+	.head-basket {
+		margin-bottom: 25px;
 	}
 }
 
@@ -577,6 +655,71 @@
 		display: flex;
 		justify-content: space-between;
 	}
+	.card__top {
+		margin-top: 20px;
+	}
+	.card-prices {
+		padding-top: 10px;
+		padding-bottom: 20px;
+	}
+	.card .tabs {
+		margin-top: 35px;
+	}
+	.table-main {
+		overflow: auto;
+	}
+	.table-main table {
+		width: 1050px;
+	}
+	.table-main::-webkit-scrollbar {
+		-webkit-appearance: none;
+	}
+	.table-main::-webkit-scrollbar:vertical {
+		width: 3px;
+	}
+	.table-main::-webkit-scrollbar:horizontal {
+		height: 3px;
+	}
+	.table-main::-webkit-scrollbar-thumb {
+		background-color: #FE0000;
+		border-radius: 10px;
+	}
+	.table-main::-webkit-scrollbar-track {
+		border-radius: 10px;
+		background-color: #B1B8C2;
+	}
+	.slider-catalog {
+		padding-bottom: 40px;
+	}
+	.recomendation {
+		padding-top: 30px;
+		padding-bottom: 50px;
+	}
+	.recomendation .title-section {
+		padding-bottom: 20px;
+	}
+	.card {
+		padding-top: 30px;
+		padding-bottom: 50px;
+	}
+	.basket-main {
+		margin-bottom: 20px;
+	}
+	.title-big {
+		font-size: 34px;
+		line-height: 41px;
+	}
+	.descr-big {
+		font-size: 18px;
+		line-height: 26px;
+	}
+	.thanks .descr-big {
+		max-width: 350px;
+	}
+	.thanks {
+		padding-top: 35px;
+		padding-bottom: 65px;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -793,6 +936,120 @@
 		padding-top: 25px;
 		padding-bottom: 50px;
 	}
+	.slider-nav {
+		max-width: 100%;
+		padding: 0;
+	}
+	.col_for {
+		order: -1;
+	}
+	.slider-for__item {
+		height: 410px;
+	}
+	.slider-nav__item {
+		margin: 0 7px;
+		height: 100px;
+	}
+	.slider-nav .slick-arrow {
+		top: 50%;
+		background-color: #fff;
+		bottom: auto;
+		-webkit-transform: translate(0, -50%);
+		-ms-transform: translate(0, -50%);
+		transform: translate(0, -50%);
+	}
+	.slider-nav .slick-prev {
+		left: -15px;
+		right: auto;
+	}
+	.slider-nav .slick-next {
+		right: -15px;
+		left: auto;
+	}
+	.card .title-middle {
+		max-width: 100%;
+		margin-bottom: 20px;
+	}
+	.title-middle {
+		font-size: 22px;
+	}
+	.card__top {
+		margin-bottom: 20px;
+	}
+	.card .btn-main {
+		padding: 0 30px;
+	}
+	.tabs li {
+		margin-right: 55px;
+	}
+	.tabs {
+		margin-bottom: 20px;
+	}
+	.text-page p {
+		margin-bottom: 15px;
+	}
+	.card .consultation-block_main {
+		padding: 25px;
+	}
+	.card .consultation-block_main .consultation-block__text {
+		font-size: 14px;
+		line-height: 21px;
+		margin-bottom: 15px;
+	}
+	.card .consultation-block_main .consultation-block__descr {
+		font-size: 19px;
+		line-height: 26px;
+		padding-bottom: 10px;
+	}
+	.card .consultation-block_main .consultation-block__title {
+		font-size: 30px;
+		line-height: 32px;
+	}
+	.card .line-form .item-form {
+		width: 188px;
+	}
+	.card .table-main {
+		margin-top: 30px;
+	}
+	.table-main {
+		margin-right: -15px;
+	}
+	.basket-main table,
+	.basket-main thead,
+	.basket-main tr,
+	.basket-main td {
+		display: block;
+	}
+	.basket-main td {
+		border: none;
+		padding: 15px 15px !important;
+		width: 100% !important;
+	}
+	.basket-main tr {
+		border-bottom: 1px solid #BDBDBD;
+		position: relative;
+	}
+	.remove-td {
+		top: 20px;
+		right: 20px;
+		position: absolute;
+	}
+	.basket-main td:last-child {
+		padding: 0 !important;
+		border: none;
+	}
+	.head-basket {
+		display: block;
+	}
+	.links-basket .link-doc {
+		margin: 0;
+		margin-top: 20px;
+		margin-right: 30px;
+	}
+	.basket-main td:nth-child(2),
+	.basket-main td:nth-child(3) {
+		padding-bottom: 0 !important;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -979,6 +1236,52 @@
 	.page-numbers {
 		font-size: 15px;
 		margin: 0 12px;
+	}
+	.slider-for__item {
+		height: 330px;
+	}
+	.slider-nav__item {
+		height: 83px;
+	}
+	.title-middle {
+		font-size: 21px;
+	}
+	.feature__title {
+		width: 200px;
+	}
+	.tabs li {
+		margin-right: 35px;
+	}
+	.card .consultation-block_main {
+		padding: 25px 20px;
+	}
+	.card .consultation-block_main .consultation-block__descr {
+		font-size: 17px;
+		line-height: 24px;
+	}
+	.card .consultation-block_main .consultation-block__title {
+		font-size: 26px;
+		line-height: 29px;
+		padding-bottom: 13px;
+	}
+	.card .btn-main {
+		padding: 0 5px;
+	}
+	.recomendation { 
+		padding-bottom: 40px;
+	}
+	.link-doc {
+		font-size: 14px;
+	}
+	.links-basket .link-doc {
+		margin-right: 15px;
+	}
+	.basket-total {
+		padding: 20px;
+	}
+	.title-big {
+		font-size: 31px;
+		line-height: 38px;
 	}
 }
 
