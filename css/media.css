@@ -1053,7 +1053,27 @@
 	.table-main td:last-child {
     max-width: initial;
 }
-
+.modal-wrap {
+    padding: 30px 20px;
+        border-radius: 15px;
+}
+.fancybox-close {
+    top: 3px;
+    right: 4px;
+    }
+    .modal-wrap .title-form {
+    font-size: 29px;
+    line-height: 35px;
+    margin-bottom: 14px;
+}
+.descr-form {
+    font-size: 16px;
+    line-height: 21px;
+    margin-bottom: 16px;
+    }
+    .modal-wrap .item-form {
+    margin-bottom: 20px;
+}
 }
 
 /* Extra Small Devices, Phones */
