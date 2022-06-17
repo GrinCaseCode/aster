@@ -2457,7 +2457,7 @@ input[type=number]
 }
 .table-buttons .btn-main {
 	height: 29px;
-	padding: 0 22px;
+	padding: 0 22px !important;
 }
 .table-main td {
 	padding: 6px 15px;

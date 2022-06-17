@@ -1050,6 +1050,10 @@
 	.basket-main td:nth-child(3) {
 		padding-bottom: 0 !important;
 	}
+	.table-main td:last-child {
+    max-width: initial;
+}
+
 }
 
 /* Extra Small Devices, Phones */
